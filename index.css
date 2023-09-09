@@ -1,0 +1,193 @@
+#nav-bar-logo{
+    color: cadetblue;
+
+}
+
+#main-title{
+    color: blueviolet;
+    background-color: rgb(220, 20, 137);
+    margin: 1rem;
+    border: 0.5rem solid magenta;
+    width: 50%;
+    height: 50%;
+}
+
+.add {
+    color:crimson;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: darkmagenta;
+    padding: 1rem;
+    border: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+p {
+    color: darkmagenta;
+
+}
+    
+   
+body {
+    background: #f9f9f9;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.search-bar .actions{
+    display: flex;
+    gap: 5px;
+}
+.search-bar .actions button{
+    border: 1rem;
+    outline: 1rem;
+    background: 0.5rem;
+    cursor: pointer;
+    color: #999;
+}
+.search-bar .actions button:hover{
+    color: #2979e2;
+}
+
+h1 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: darkmagenta;
+    padding: 1rem;
+    border: 0.5rem;
+}
+
+#contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarea {
+    display: flex;
+    flex-direction: column;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: magenta;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.search-bar{
+    border: solid 5px rgb(238, 121, 238);
+    border-radius: 30px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 100px auto;
+} 
+
+.search-bar:focus-within{
+    border: solid 1px #aaa;
+    box-shadow: 10px 5px 5px rgba(55, 9, 116, 0.2);
+
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    flex: auto;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+:root {
+    --verde: #0c443a;
+    --limon: #25d1b2;
+    --degradado:linear-gradient(90deg, var(--limon),var(var--verde));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+
+    *::selection{
+        background: var(--limon);
+        color: white;
+    }
+
+html {
+    font-size: 62.4%;
+    overflow: hidden;
+
+    }
+}
+input{
+    color: darkmagenta;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+    
+
+
+header .nav-bar-logo{
+    font-size: 2rem;
+    color: var(--verde);
+}
+
+*/style*/
+.material-symbols-outlined {
+    color: coral;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  e876
+}
+
+.button {
+color: coral;
+}
